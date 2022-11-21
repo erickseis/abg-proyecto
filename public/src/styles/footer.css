@@ -10,9 +10,11 @@
   --color-negro-principal: black;
   --color-azul-principal: #2a395a;
 }
-
+footer {
+}
 .footer-contain,
 .contain-footer {
+  display: block;
   color: white;
   z-index: -100;
   width: 100%;
