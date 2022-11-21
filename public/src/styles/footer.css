@@ -28,7 +28,7 @@ footer {
   display: block;
   color: white;
   z-index: -100;
-  background: linear-gradient(0deg, #2a395a 60%, rgba(255, 255, 255, 0) 60%);
+  background: linear-gradient(0deg, #2a395a 60%, rgba(255, 255, 255, 0) 65%);
 }
 
 .footer {
@@ -136,7 +136,7 @@ ul li a {
 @media (min-width: 1000px) {
   .block {
     width: 100%;
-    height: 130vh;
+    height: 135vh;
     padding-left: 35rem;
     padding-right: 35rem;
     background: linear-gradient(0deg, #2a395a 55%, rgba(255, 255, 255, 0) 60%);
@@ -155,7 +155,7 @@ ul li a {
     border-top: none;
   }
   .grid-child.logo-cancun img {
-    width: 200px;
+    width: 80px;
   }
   .grid-child.logo-cancun {
     width: 400px;
@@ -197,6 +197,6 @@ ul li a {
   .border-botton img {
     position: absolute;
     left: 30rem;
-    width: 80px;
+    width: 50px;
   }
 }
