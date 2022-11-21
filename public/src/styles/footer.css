@@ -10,19 +10,27 @@
   --color-negro-principal: black;
   --color-azul-principal: #2a395a;
 }
-footer {
-}
-.footer-contain,
-.contain-footer {
+/* footer {
   display: block;
-  color: white;
-  z-index: -100;
-  width: 100%;
-  /* height: 100%; */
-  background: linear-gradient(-40deg, #2a395a 60%, white 50%);
+  position: relative;
+} */
+footer {
+  position: relative;
+  height: 260vh;
+}
+.block {
   position: absolute;
   bottom: 0;
 }
+
+.block {
+  padding-top: 12rem;
+  display: block;
+  color: white;
+  z-index: -100;
+  background: linear-gradient(0deg, #2a395a 60%, rgba(255, 255, 255, 0) 60%);
+}
+
 .footer {
   padding-top: 25rem;
   width: 100%;
@@ -35,6 +43,7 @@ footer {
   justify-content: center;
   align-items: center;
 }
+
 .logo-cancun {
   width: 100%;
   border-top: 0.5px solid white;
@@ -124,13 +133,13 @@ ul li a {
 .border-botton img {
   width: 80px;
 }
-
 @media (min-width: 1000px) {
-  .footer-contain {
+  .block {
     width: 100%;
+    height: 130vh;
     padding-left: 35rem;
     padding-right: 35rem;
-    background: linear-gradient(0deg, #2a395a 50%, rgba(255, 255, 255, 0) 52%);
+    background: linear-gradient(0deg, #2a395a 55%, rgba(255, 255, 255, 0) 60%);
   }
 
   .grid-container {

@@ -18,16 +18,13 @@ html {
 }
 body {
   background-color: var(--color-blanco-principal);
+  height: 100%;
+  display: block;
 }
-/* .ifNavbar {
-  min-width: 100% !important;
-  height: 100vh;
-  position: fixed;
-  opacity: 97%;
-} */
+
 .app {
   width: 100%;
-  height: 90vh;
+  /* height: 200vh; */
   position: absolute;
   top: 0;
   background-image: url(./public/src/images/fondoedehome.jpg);
@@ -36,23 +33,9 @@ body {
   background-size: 200vw;
   z-index: -1000;
 }
-.ifFooter {
-  width: 100% !important;
-  height: 1500px !important;
-}
-section {
-  height: 100vh;
-}
-/* footer {
-  position: absolute;
-  width: 100%;
-  bottom: 1;
-  margin-top: 100rem;
-  left: 0;
-} */
 
 .title-principal-home {
-  height: 100vh;
+  height: 200vh;
 
   padding: 0 1.5rem;
   position: relative;
@@ -77,11 +60,17 @@ section {
   }
   .title-principal-home {
     width: 800px;
+    height: 100vh;
     text-align: justify;
     display: block;
     float: right;
   }
   .title-principal-home p {
     margin-top: 2rem;
+  }
+  .block {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
   }
 }
