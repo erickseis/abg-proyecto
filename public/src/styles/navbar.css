@@ -53,6 +53,12 @@
 
 @media (max-width: 768px) {
   /* Estilos para el ícono del Menú */
+  .navbar {
+    opacity: 85%;
+    position: fixed;
+    width: 100%;
+    top: 0;
+  }
   .icono-menu {
     display: flex;
     justify-content: center;
