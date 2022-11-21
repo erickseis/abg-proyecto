@@ -35,20 +35,70 @@ body {
 }
 
 .title-principal-home {
+  background-color: #e7ebda3b;
   height: 200vh;
-
   padding: 0 1.5rem;
   position: relative;
   color: var(--color-negro-principal);
 }
 .title-principal-home h1 {
   font-size: 35px;
-  margin-top: 20rem;
+  margin-top: 28rem;
 }
 .title-principal-home p {
   text-align: justify;
   margin-top: 2rem;
 }
+.btn-home {
+  margin-top: 35rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 0 1rem;
+}
+
+.btn-home button {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  overflow: hidden;
+  border-radius: 5px;
+  border: none;
+  background-color: #098d27;
+
+  box-shadow: 5px 5px 10px 1px gray;
+}
+.btn-home button:hover {
+  border-radius: 5px;
+  padding-right: 24px;
+  padding-left: 8px;
+}
+.btn-home button:hover:after {
+  opacity: 1;
+  right: 10px;
+}
+.btn-home button:after {
+  content: '\00BB';
+  position: absolute;
+  opacity: 0;
+  font-size: 20px;
+  line-height: 40px;
+  top: 0;
+  right: -20px;
+  transition: 0.4s;
+}
+.btn-call {
+  background-color: #2a395a !important;
+}
+
 @media (min-width: 1000px) {
   .app {
     background-size: 100vw;
@@ -59,6 +109,7 @@ body {
     margin-top: 30rem;
   }
   .title-principal-home {
+    background-color: transparent;
     width: 800px;
     height: 100vh;
     text-align: justify;
@@ -72,5 +123,13 @@ body {
     width: 100%;
     position: absolute;
     bottom: 0;
+  }
+  .btn-home {
+    margin-top: 42rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 1rem;
   }
 }
