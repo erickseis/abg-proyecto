@@ -67,7 +67,7 @@
     width: 60px;
     height: 60px;
     background-color: var(--color-azul-principal);
-    box-shadow: 0px 0px 10px 1px cyan;
+    box-shadow: 0px 0px 10px 1px white;
     position: fixed;
     right: 0;
     margin-right: 1rem;
