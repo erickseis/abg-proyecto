@@ -39,7 +39,6 @@ h1 {
   top: 0;
   background-image: url(./public/src/images/fondoedehome.jpg);
   background-repeat: no-repeat;
-  background-position-y: 5rem;
   background-size: 200vw;
   z-index: -1000;
 }
