@@ -60,7 +60,7 @@ h1 {
   margin-top: 2rem;
 }
 .btn-home {
-  margin-top: 35rem;
+  margin-top: 43rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -108,13 +108,38 @@ h1 {
 .btn-call {
   background-color: #2a395a !important;
 }
+.title-services {
+  margin-top: 4rem;
+  object-fit: contain;
+  position: relative;
+}
+.title-services img {
+  width: 100%;
+  height: 400px;
+}
 .title-services h1 {
+  width: 100%;
+  height: 60px;
+  position: absolute;
+  bottom: 0;
   text-align: center;
   font-size: 45px;
   margin-top: 8rem;
   margin-bottom: 4rem;
+  background-color: #2c0b8e;
+  z-index: 5;
+  color: white;
+}
+.footer-services-people {
+  position: absolute;
+  top: 0rem;
+  width: 100%;
+  height: 400px;
+  background-color: #2c0b8e;
+  opacity: 50%;
 }
 .services-home {
+  margin-top: 6rem;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   gap: 2rem;
@@ -200,11 +225,13 @@ h1 {
 }
 .contain-bussines h1 {
   width: 100%;
-  background-color: #2c0b8ea7;
+  height: 60px;
+  background-color: #2c0b8e;
   font-size: 40px;
   position: absolute;
-  bottom: 0;
+  bottom: 60px;
   z-index: 200;
+  color: white;
 }
 .contain-bussines img {
   margin-bottom: 1rem;
